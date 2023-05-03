@@ -1,5 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap";
 
+.flex-container {
+  display: flex;
+
+  /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+
+  height: 200px;
+  color: #fff;
+  font-size: 1.2rem;
+}
 
 html {
     scroll-behavior: smooth
